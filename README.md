@@ -6,7 +6,7 @@
 
 - 에이전트가 쓰는 세분화 토큰은 이 저장소에만 쓰기 권한(Contents, Pull requests)이 있습니다. Workflows 권한은 없습니다.
 - `main` 브랜치는 룰셋으로 보호됩니다. PR 없이는 반영할 수 없고, 강제 push와 브랜치 삭제는 막혀 있으며, 우회 목록은 비어 있습니다.
-- [`.claude/settings.json`](.claude/settings.json)의 권한 규칙이 `.env` 읽기와 쓰기를 막습니다.
+- [`.claude/settings.json`](.claude/settings.json)의 권한 규칙이 `.env` 읽기, 워크플로 파일 수정, `curl`·`wget`·`rm` 실행을 막습니다.
 
 `.env`는 실험용 가짜 비밀값입니다. `.gitignore`에 들어 있어 이 저장소에는 없고, 실험 컨테이너 안에서만 만들어집니다. 필요한 변수 이름은 [`.env.example`](.env.example)에 있습니다.
 

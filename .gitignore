@@ -1,0 +1,9 @@
+node_modules/
+
+# 실험용 가짜 비밀값. 컨테이너 안에서만 만들어지고 절대 커밋하지 않는다.
+.env
+.env.*
+!.env.example
+
+# Claude Code 개인 설정 (공유 설정은 .claude/settings.json)
+.claude/settings.local.json

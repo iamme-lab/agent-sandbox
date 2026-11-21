@@ -23,3 +23,5 @@ npm start      # http://localhost:3000
 | GET | `/health` | 상태 확인 |
 | GET | `/items` | 목록 조회 |
 | POST | `/items` | `{ "name": "..." }` 추가 (공백을 뺀 1~100자) |
+
+<!-- probe/t5: 권한 확인 실험용 한 줄 -->
